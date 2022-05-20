@@ -11,5 +11,5 @@ INSTALL(PROGRAMS ${CMAKE_CURRENT_SOURCE_DIR}/scripts/iqaudio-rotary-volume.servi
 SET(CPACK_GENERATOR "DEB")
 SET(CPACK_DEBIAN_PACKAGE_MAINTAINER "neonsoftware") #required
 #Set the script file preinst to execute before installation
-set( CPACK_DEBIAN_PACKAGE_CONTROL_EXTRA "${CMAKE_CURRENT_SOURCE_DIR}/scripts/preinst;" )
+set( CPACK_DEBIAN_PACKAGE_CONTROL_EXTRA "${CMAKE_CURRENT_SOURCE_DIR}/scripts/preinst;${CMAKE_CURRENT_SOURCE_DIR}/scripts/postinst;${CMAKE_CURRENT_SOURCE_DIR}/scripts/prerm;" )
 INCLUDE(CPack)
