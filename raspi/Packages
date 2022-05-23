@@ -2,12 +2,12 @@ Package: iqaudio-tools
 Version: 0.1.1
 Architecture: amd64
 Maintainer: neonsoftware
-Installed-Size: 21
+Installed-Size: 17
 Filename: ./iqaudio-tools-0.1.1-Linux.deb
-Size: 1474
-MD5sum: f4f535273aa04a9573e73325e3e5c4b0
-SHA1: b6a37649285f020f382acdf83640baeb3f3c2a17
-SHA256: c93185d8a212b2fc7246823797099c16f479eee3e2d7f8ccd524d5b640a0213d
+Size: 1456
+MD5sum: 63a6b1d7aac157461ba477873ab74cd6
+SHA1: 10fbf1ac6d107476320290547a9e7e9cefc207ae
+SHA256: f5872015544ca060b03a9ef33ec6fbfe222d9609a90b08fe5bc394157faf89f8
 Section: devel
 Priority: optional
 Description: iqaudio-tools built using CMake
