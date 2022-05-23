@@ -3,11 +3,12 @@ Version: 0.1.1
 Architecture: amd64
 Maintainer: neonsoftware
 Installed-Size: 17
+Depends: wget
 Filename: ./iqaudio-tools-0.1.1-Linux.deb
-Size: 1456
-MD5sum: 63a6b1d7aac157461ba477873ab74cd6
-SHA1: 10fbf1ac6d107476320290547a9e7e9cefc207ae
-SHA256: f5872015544ca060b03a9ef33ec6fbfe222d9609a90b08fe5bc394157faf89f8
+Size: 1468
+MD5sum: 662e3702f4fa5a56faf3a74bc438bade
+SHA1: ef18603c64b8e2b9c1d48703100c99a7deb436eb
+SHA256: 49232a88882b1ec8106aeda1bb7f98e514aa16ec29bae9a52bc8efed4a564e9d
 Section: devel
 Priority: optional
 Description: iqaudio-tools built using CMake
