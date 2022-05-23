@@ -2,14 +2,12 @@ cmake_minimum_required(VERSION 3.12.2)
 
 project (iqaudio-tools)
 
-#install the service menu on the correct folder
-
-#install the script where you should be
 INSTALL(PROGRAMS ${CMAKE_CURRENT_SOURCE_DIR}/scripts/iqaudio-rotary-volume.service
         DESTINATION /lib/systemd/system/)
 
 SET(CPACK_GENERATOR "DEB")
-SET(CPACK_DEBIAN_PACKAGE_MAINTAINER "neonsoftware") #required
+SET(CPACK_DEBIAN_PACKAGE_MAINTAINER "neonsoftware")
+SET(CPACK_DEBIAN_PACKAGE_DEPENDS wget)
 #Set the script file preinst to execute before installation
 set( CPACK_DEBIAN_PACKAGE_CONTROL_EXTRA "${CMAKE_CURRENT_SOURCE_DIR}/scripts/preinst;${CMAKE_CURRENT_SOURCE_DIR}/scripts/postinst;${CMAKE_CURRENT_SOURCE_DIR}/scripts/prerm;" )
 INCLUDE(CPack)
