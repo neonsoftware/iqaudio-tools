@@ -6,7 +6,7 @@ project (iqaudio-tools)
 
 #install the script where you should be
 INSTALL(PROGRAMS ${CMAKE_CURRENT_SOURCE_DIR}/scripts/iqaudio-rotary-volume.service
-        DESTINATION /lib/systemd/system/iqaudio-rotary-volume.service)
+        DESTINATION /lib/systemd/system/)
 
 SET(CPACK_GENERATOR "DEB")
 SET(CPACK_DEBIAN_PACKAGE_MAINTAINER "neonsoftware") #required

@@ -1,1 +1,1 @@
-deb https://neonsoftware.github.io/iqaudio-tools raspi
+deb https://neonsoftware.github.io/iqaudio-tools/raspi ./
