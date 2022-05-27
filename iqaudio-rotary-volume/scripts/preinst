@@ -4,5 +4,6 @@ set -e
 
 if [ ! -f /usr/bin/IQ_rot ]; then
     echo "Downloading IQ_rot binary"
-    wget https://github.com/iqaudio/tools/raw/master/IQ_rot -P /usr/bin/IQ_rot
+    curl -o /usr/bin/IQ_rot https://github.com/iqaudio/tools/raw/master/IQ_rot
+    chmod u+x /usr/bin/IQ_rot
 fi
