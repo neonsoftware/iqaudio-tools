@@ -3,12 +3,12 @@ Version: 0.1.1
 Architecture: armhf
 Maintainer: neonsoftware
 Installed-Size: 17
-Depends: wget
+Depends: curl
 Filename: ./iqaudio-tools-0.1.1-Linux.deb
-Size: 1468
-MD5sum: 8ecc2a9952c37c0395320a060d18cba4
-SHA1: b29ad58130fe9396316c030bbe7fa51b263ab468
-SHA256: 0b91a95e8b50a54e61b31ca8c9c903a64520df5c90802745ecc99db4e50eb390
+Size: 1482
+MD5sum: 241e09a040ad61dd92ae62d2da3789bc
+SHA1: 112be68b96538768f8ed00b63126725db038fa8a
+SHA256: 0e77577706f509d32aed3334ee7d2a11185506120d768f23bf33e1785c0fe0e5
 Section: devel
 Priority: optional
 Description: iqaudio-tools built using CMake
