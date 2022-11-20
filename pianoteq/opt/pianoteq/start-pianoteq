@@ -1,0 +1,5 @@
+#!/bin/bash --
+
+# # amixer sset 'Digital',0 190
+sudo cpufreq-set -g performance
+/opt/pianoteq/arm/Pianoteq --headless --multicore max $@

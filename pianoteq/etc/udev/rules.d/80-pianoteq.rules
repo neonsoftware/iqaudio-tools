@@ -1,0 +1,3 @@
+ACTION=="add", SUBSYSTEM=="usb", ENV{ID_VENDOR_ID}=="0a4d", ENV{ID_MODEL_ID}=="008f", RUN+="/bin/systemctl start pianoteq"
+ACTION=="remove", SUBSYSTEM=="sound", ENV{ID_VENDOR_ID}=="0a4d", ENV{ID_MODEL_ID}=="008f", RUN+="/bin/systemctl stop pianoteq"
+
