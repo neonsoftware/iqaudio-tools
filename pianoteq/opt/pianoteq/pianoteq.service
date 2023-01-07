@@ -7,8 +7,8 @@ After=sound.target
 WantedBy=multi-user.target
 
 [Service]
-User=pi
-Group=pi
+User=root
+Group=root
 LimitMEMLOCK=500000
 LimitRTPRIO=90
 LimitNICE=-10
